@@ -1,0 +1,99 @@
+.card {
+    background-color: var(--cor-branco);
+    border-radius: 1em;
+    margin: 1.6em 0;
+    /* padding: 1.6em; */
+}
+
+.card__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6em;
+}
+
+.card__avatar {
+    height: 3.2em;
+    border-radius: 50%;
+}
+
+.card__header-texto {
+    margin-left: 1.6em;
+}
+
+.card__header--esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.card__tipo-consulta {
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+    padding-top: 0.6em;
+}
+
+.card__nome-paciente {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.card__texto-tipo-consulta {
+    font-size: 1.2em;
+    color: var(--cor-cinza-medio);
+}
+
+.card__conteudo {
+    border-top: 1px solid var(--cor-cinza-claro);
+    padding: 1.6em;
+}
+
+.card__texto-conteudo {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: var(--cor-cinza-escuro);
+    padding-bottom: 1.2em;
+}
+
+.card__botoes-lista {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card__botoes-lista a {
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.card__botao-video {
+    background-color: var(--cor-botao1);
+    padding: 1.6em ;
+    border-radius: 0.8em;
+}
+
+.card__botao-audio {
+    padding: 1.6em;
+    border-radius: 0.8em;
+    border: 1px solid var(--cor-cinza-claro);
+}
+
+.botao-link-video {
+    color: var(--cor-branco);
+}
+
+.botao-link-audio {
+    color: var(--cor-cinza-escuro);
+}
+
+.card__botao-endereco {
+    background-color: var(--cor-botao2);
+    padding: 1.6em;
+    width: 100%;
+    border-radius: 0.8em;
+    text-align: center;
+}
+
+.botao-link-endereco {
+    color: var(--cor-branco);
+}

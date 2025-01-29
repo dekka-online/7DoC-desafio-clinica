@@ -1,0 +1,61 @@
+.rodape {
+    background-color: var(--cor-branco);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 58px;
+    border-radius: 12px 12px 0 0;
+    filter: drop-shadow(0 -1px 3px #46464625);
+}
+
+.navbar__botoes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2em;
+    
+}
+
+.botao-acao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-cinza-medio);
+}
+
+.botao-acao:first-of-type {
+    color: var(--cor-botao2);
+    
+}
+
+.botao-acao span {
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8px;
+}
+
+/* .botao-acao-consultas {
+    color: var(--cor-botao-2);
+} */
+
+.icone-consultas {
+    background-image: url(../assets/img/icones1/calendario.png);
+}
+
+.icone-clientes {
+    background-image: url(../assets/img/icones1/clientes.svg);
+    opacity: 30%;
+}
+
+.icone-relatorios {
+    background-image: url(../assets/img/icones1/relatorios.svg);
+    opacity: 30%;
+}
+
+.icone-menu {
+    background-image: url(../assets/img/icones1/menu.svg);
+    opacity: 30%;
+}

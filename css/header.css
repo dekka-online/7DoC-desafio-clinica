@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    margin: 3.2em 1.6em;
+    align-items: center;
+}
+
+.header__avatar {
+    width: 5.7em;
+    border-radius: 50%;
+}
+
+.header--conteudo {
+    display: block;
+    margin-left: 1.6em;
+    line-height: 1.5;
+}
+
+.header__titulo {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+.header__texto {
+    font-size: 1.4em;
+    color: var(--cor-cinza-medio);
+}
