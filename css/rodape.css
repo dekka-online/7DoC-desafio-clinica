@@ -59,3 +59,10 @@
     background-image: url(../assets/img/icones1/menu.svg);
     opacity: 30%;
 }
+
+@media screen and (min-width: 768px) {
+    .navbar__botoes {
+        justify-content: center;
+        gap: 40px;
+    }
+}

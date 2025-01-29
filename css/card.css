@@ -2,7 +2,7 @@
     background-color: var(--cor-branco);
     border-radius: 1em;
     margin: 1.6em 0;
-    /* padding: 1.6em; */
+    
 }
 
 .card__header {
@@ -96,4 +96,38 @@
 
 .botao-link-endereco {
     color: var(--cor-branco);
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 328px;
+        margin: 0
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 400px;
+        margin: 0
+    }
+    
+    .card__avatar {
+        height: 4.8em;
+    }
+
+    .card__nome-paciente {
+        font-size: 1.8em;
+    }
+
+    .card__texto-tipo-consulta {
+        font-size: 1.4em;
+    }
+
+    .card__texto-conteudo {
+        font-size: 1.4em;
+    }
+
+    .card__botoes-lista a {
+        font-size: 1.6em;
+    }
 }

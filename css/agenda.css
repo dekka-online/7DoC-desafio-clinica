@@ -1,5 +1,6 @@
 .agenda {
     margin: 1.6em;
+    padding-bottom: 58px;
 }
 
 .agenda__dia--wrapper {
@@ -15,4 +16,20 @@
     font-size: 1.6em;
     font-weight: 700;
     margin: 0.8em 0;
+}
+
+@media screen and (min-width: 768px) {
+    .agenda__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 40px;
+        
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .agenda__dia--titulo {
+        font-size: 2em;
+    }
 }
