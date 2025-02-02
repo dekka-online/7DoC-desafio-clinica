@@ -192,7 +192,7 @@
             </div>
         </div>
         <div class="agenda__dia--wrapper">
-            <h2 class="agenda__dia--titulo">Quarta-feira</h2>
+            <h2 class="agenda__titulo">Quarta-feira</h2>
             <div class="agenda__cards">
                 <div class="card">
                     <div class="card__header">
@@ -290,7 +290,43 @@
                 </div>
             </div>
         </div>
-        
+        <div class="formulario-consulta">
+            <form class="formulario">
+                <h2 class="form-titulo agenda__titulo">Adicionar nova consulta</h2>
+                <div class="agenda__formulario">
+                    <div class="form-entrada form-nome">
+                        <label for="nome">Nome do paciente</label>
+                        <input type="text" name="nome" id="nome" placeholder="Escreva o nome do paciente" required>
+                    </div>
+                    <div class="form-entrada form-tipo-consulta">
+                        <label>Tipo de consulta</label>
+                        <div class="botoes-selecao">
+                            <input type="radio" name="tipo-consulta" value="presencial">
+                            <label for="">Presencial</label>
+                            <input type="radio" name="tipo-consulta" value="remota">
+                            <label for="">Remota</label>
+                        </div>
+                    </div>
+                    <div class="form-entrada form-data-horario">
+                        <div class="data-horario">
+                            <label for="">Data da consulta</label>
+                            <input type="date" name="data" id="data">
+                        </div>
+                        <div class="data-horario">
+                            <label for="">Horário da consulta</label>
+                            <input type="time">
+                        </div>
+                    </div>
+                    <div class="form-entrada form-observacoes">
+                        <label for="">Observações</label>
+                        <input type="text" id="observacoes" placeholder="Escreva suas observações">
+                    </div>
+                    <div class="form-botao">
+                        <button>Salvar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
     <footer class="rodape">
         <nav class="navbar">

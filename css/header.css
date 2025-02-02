@@ -26,6 +26,10 @@ header {
 }
 
 @media screen and (min-width: 1440px) {
+    header {
+        padding-left: 300px;
+    }
+
     .header__titulo {
         font-size: 3.1em;
     }

@@ -66,3 +66,40 @@
         gap: 40px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .rodape {
+        background-color: var(--cor-branco);
+        position: fixed;
+        top: 0;
+        width: 250px;
+        height: 100vh;
+        border-radius: 0;
+        filter: drop-shadow(0 -1px 3px #46464625);
+        padding: 3em 0 0 3em;
+    }
+
+    .navbar__botoes {
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items:flex-start;
+        font-size: 2em;
+        
+    }
+
+    .botao-acao {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .botao-acao:first-of-type {
+        font-weight: 600;
+        
+    }
+
+    .botao-acao:hover {
+        font-weight: 600;
+        cursor: pointer;
+    }
+}

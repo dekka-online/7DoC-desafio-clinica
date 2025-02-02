@@ -10,3 +10,8 @@
     filter: drop-shadow(0 3px 6px #4894FF90);
 }
 
+@media screen and (min-width: 1440px) {
+    .botao__flutuante {
+        display: none;
+    }
+}

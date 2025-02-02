@@ -12,7 +12,7 @@
     padding-top: 0;
 }
 
-.agenda__dia--titulo {
+.agenda__titulo {
     font-size: 1.6em;
     font-weight: 700;
     margin: 0.8em 0;
@@ -29,7 +29,13 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .agenda__dia--titulo {
+    .agenda {
+        margin: 1.6em;
+        padding-bottom: 58px;
+        padding-left: 300px;
+    }
+
+    .agenda__titulo {
         font-size: 2em;
     }
 }

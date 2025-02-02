@@ -1,0 +1,111 @@
+.formulario-consulta {
+    width: 500px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario label {
+    padding-bottom: 0.8em;
+}
+
+.agenda__formulario {
+    font-size: 1.6em;
+    color: var(--cor-cinza-escuro-formulario);
+    font-weight: 500;
+}
+
+.form-entrada, .form-botao {
+    padding: 2em 0 0 1.5em;
+}
+
+.form-entrada {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-entrada input::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--cor-cinza-claro-formulario);
+    font-size: 16px;
+    /* padding-left: 16px; */
+}
+
+.form-entrada input {
+    height: 56px;
+    border: 1px solid var(--cor-cinza-claro);
+    border-radius: 8px;
+    outline: none;
+    padding-left: 20px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
+
+.form-entrada input:focus {
+    border: 2px solid var(--cor-botao2);
+}
+
+.botoes-selecao input {
+    padding: 0 1em 0 1em;
+    height: auto;
+}
+
+.botoes-selecao label {
+    padding-left: 0.3em;
+    padding-right: 1em;
+    font-weight: 400;
+}
+
+.form-data-horario {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.data-horario {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-data-horario .data-horario input {
+    font-family: var(--fonte-principal);
+    color: var(--cor-cinza-claro-formulario);
+    padding-left: 16px;
+    width: 200px;
+}
+
+.data-horario label {
+    padding: 0 0 0.8em 0;
+}
+
+.form-botao button {
+    background-color: var(--cor-botao2);
+    padding: 16px;
+    width: 150px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cor-branco);
+    border: none;
+    border-radius: 8px;
+}
+
+.form-botao button:hover {
+    background-color: #4786f0;
+    
+}
+
+.form-botao button:active {
+    background-color: #4373dc;
+    border: 2px solid #57a4ff;
+}
+
+@media screen and (max-width: 1439px) {
+    .formulario-consulta {
+        display: none;
+    }
+}
