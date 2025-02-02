@@ -72,7 +72,7 @@
         background-color: var(--cor-branco);
         position: fixed;
         top: 0;
-        width: 250px;
+        width: 200px;
         height: 100vh;
         border-radius: 0;
         filter: drop-shadow(0 -1px 3px #46464625);
@@ -85,7 +85,7 @@
         justify-content:left;
         align-items:flex-start;
         font-size: 2em;
-        
+        gap: 1em;
     }
 
     .botao-acao {
